@@ -1,0 +1,173 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+    
+}
+
+/*
+
+*/
+  
+  /* GLOBAL */
+  
+
+  
+  .b-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(56, 56, 56);
+}
+
+.b-menu ul {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left:300px;
+ 
+}
+
+.b-menu__logo {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 10%;
+  padding-top: 3px;
+}
+
+.b-menu__item a {
+  color: rgb(192, 192, 192);
+  margin: 28px;
+  font-size: 12px;
+}
+
+.b-menu__search {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  left: 40px;
+  padding-top: 4px;
+}
+
+.b-menu__bag {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 180px;
+  padding-top: 3px;
+}
+
+.b-main {
+  display: flex;
+  flex-direction: column;  
+  height: 690px;  
+ 
+}
+
+.b-article__text {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+ justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  font-size: 64px;
+  font-weight:bold;
+    height: 200px;
+}
+
+.b-article__text--small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: lighter;  
+}
+
+
+
+.b-article__link {  
+  color: rgb(6, 126, 163);
+  font-size: 18px;
+  font-weight: 100;
+  
+  
+  
+}
+
+.b-image__bg {
+  position: relative;
+  margin-top: 20px;
+  left: 40%;
+  top: 29%;
+  transform: translate(-25%, -50%);
+  width: 50%;
+  height: 70%;
+  background-image: url(./assets/1.jpg);
+  background-repeat: no-repeat;
+}
+
+.b-section__purple {
+  height: 800px;
+  width: 100%;
+  background-image: url(./assets/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.b-article__purple {
+  position: relative;
+
+  padding-top: 30px;
+  font-size: 64px;
+  font-weight: bold;
+  width: 50%;
+  height: 200px;
+}
+
+.b-article__text--white {
+  color: whitesmoke;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+ justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 64px;
+  font-weight:bold;
+    
+}
+
+.b-article__text--pink {
+  
+  color: pink;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+
+
+
+
+.b-article__macbeth {
+  height: 100%;
+  width: 100%;
+  background-image: url(./assets/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
